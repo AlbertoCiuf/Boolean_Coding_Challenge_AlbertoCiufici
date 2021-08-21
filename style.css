@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  margin-top: 2%;
+  padding-bottom: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  padding-top: 90px;
+}
+
+.slogan {
+  color: limegreen;
+}
+
+.nav_row {
+  background-color: limegreen;
+  height: 40px;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+main, .nav_row {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+div button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.nome_monopattino {
+  display: inline-block;
+  padding-top: 3%;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.indirizzo_monopattino, .chargestatus {
+  color: lightgrey;
+  font-size: 18px;
+}
+
+.medium {
+  width: 400px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.low {
+  width: 200px;
+  height: 30px;
+  background-color: darkred;
+  border-radius: 5px;
+}
+
+.high {
+  width: 600px;
+  height: 30px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.slogan, .nome_monopattino, .indirizzo_monopattino, .chargestatus {
+  font-family: futura;
+  font-weight: lighter;
+}
